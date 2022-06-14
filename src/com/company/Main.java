@@ -26,7 +26,7 @@ public class Main {
     }
 
     public static char getOperation(){
-        System.out.println("Введите операцию:");
+        System.out.println("Введите математическую операцию:");
         char operation;
         if(scanner.hasNext()){
             operation = scanner.next().charAt(0);
